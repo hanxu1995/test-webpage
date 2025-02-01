@@ -1,0 +1,14 @@
+.board {
+    display: grid;
+    resize: both;
+    overflow: auto;
+}
+
+.cell {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+}
